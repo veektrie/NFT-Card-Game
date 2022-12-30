@@ -1,8 +1,8 @@
 
 import PageHOC from './PageHOC';
-import OnboardModal from './OnboardModal';
+import CustomInput from './CustomInput';
 
 export {
    PageHOC,
-  OnboardModal,
+  CustomInput,
 };

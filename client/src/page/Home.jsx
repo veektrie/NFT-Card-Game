@@ -1,8 +1,15 @@
 import React from "react";
-import { PageHOC } from "../components";
+import { PageHOC, CustomInput } from "../components";
+import { useGlobalContext } from "../../context";
 
 const Home = () => {
-  return <div></div>;
+  const { contract, walletAddress } = useGlobalContext();
+
+  return (
+    <div className="flex flex-col">
+      <CustomInput />
+    </div>
+  );
 };
 
 export default PageHOC(
