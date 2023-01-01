@@ -12,6 +12,7 @@ ReactDOM.createRoot(document.getElementById("root")).render(
         <Route path="/" element={<Home />} />
         <Route path="/create-battle" element={<CreateBattle />} />
         <Route path="/join-battle" element={<JoinBattle />} />
+        <Route path="/battle/:battleName" element={<Battle />} />
       </Routes>
     </GlobalContextProvider>
   </BrowserRouter>
