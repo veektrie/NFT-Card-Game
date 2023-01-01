@@ -22,6 +22,7 @@ export const GlobalContextProvider = ({ children }) => {
     type: "info",
     message: "",
   });
+  const [battleName, setBattleName] = useState("");
   const navigate = useNavigate();
 
   // set the wallet address to the state
@@ -81,7 +82,14 @@ export const GlobalContextProvider = ({ children }) => {
 
   return (
     <GlobalContext.Provider
-      value={{ contract, walletAddress, showAlert, setShowAlert }}
+      value={{
+        contract,
+        walletAddress,
+        showAlert,
+        setShowAlert,
+        battleName,
+        setBattleName,
+      }}
     >
       {children}
     </GlobalContext.Provider>
