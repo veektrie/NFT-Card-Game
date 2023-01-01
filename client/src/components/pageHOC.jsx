@@ -1,7 +1,7 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
 
-import { useGlobalContext } from "../context";
+import { useGlobalContext } from "../../context";
 import { logo, heroImg } from "../assets";
 import styles from "../styles";
 import Alert from "./Alert";

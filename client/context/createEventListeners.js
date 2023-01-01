@@ -1,8 +1,8 @@
 import { ethers } from 'ethers';
 
 import { ABI } from '../contract';
-import { playAudio, sparcle } from '../utils/animation.js';
-import { defenseSound } from '../assets';
+// import { playAudio, sparcle } from '../utils/animation.js';
+// import { defenseSound } from '../assets';
 
 const AddNewEvent = (eventFilter, provider, cb) => {
   provider.removeListener(eventFilter);
