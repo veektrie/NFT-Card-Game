@@ -97,6 +97,8 @@ export const GlobalContextProvider = ({ children }) => {
         setShowAlert,
         battleName,
         setBattleName,
+        battleGround,
+        setBattleGround,
       }}
     >
       {children}
