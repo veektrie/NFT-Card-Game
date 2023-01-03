@@ -2,7 +2,7 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import { GlobalContextProvider } from "../context";
-import { Home, CreateBattle, JoinBattle } from "./page";
+import { Home, CreateBattle, JoinBattle, Battle, BattleGround } from "./page";
 import "./index.css";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
